@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>West Coast National Park</name>
+<description>Restructured from source 'My Places.kmz' (folder: West Coast National Park). Boundary is empty - no boundary geometry exists in the source data.</description>
+<Style id="style_GATES">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/gate.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_CAMPS">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/camp.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_PICNIC">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/picnic.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_POI">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/poi.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_WATER_HOLES">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/waterhole.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_OTHER">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/lookout.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_BIRD_HIDES">
+  <IconStyle><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_DAMS">
+  <IconStyle><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_WAYPOINTS">
+  <IconStyle><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_MAIN_ROADS">
+  <LineStyle><color>ff0055ff</color><width>4</width></LineStyle>
+</Style>
+<Style id="style_BOUNDARY">
+  <LineStyle><color>ff0000ff</color><width>3</width></LineStyle>
+  <PolyStyle><color>330000ff</color></PolyStyle>
+</Style><Folder><name>Boundary</name></Folder><Folder><name>Main Roads</name></Folder><Folder><name>Gates</name><Placemark>
+  <name>Flower Season Entrance</name>
+  
+  <styleUrl>#style_GATES</styleUrl>
+  <Point><coordinates>18.00379247623135,-33.14458828787222,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>West Coast Gate</name>
+  
+  <styleUrl>#style_GATES</styleUrl>
+  <Point><coordinates>18.20241463694862,-33.2442776573784,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Langebaan Entrance Gate</name>
+  
+  <styleUrl>#style_GATES</styleUrl>
+  <Point><coordinates>18.05511316320866,-33.1176982098669,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Picnic Spots</name></Folder><Folder><name>Bird Hides</name><Placemark>
+  <name>Abrahamskraal Hide</name>
+  
+  <styleUrl>#style_BIRD_HIDES</styleUrl>
+  <Point><coordinates>18.13557881808159,-33.23084565290977,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Geelbek Hide</name>
+  
+  <styleUrl>#style_BIRD_HIDES</styleUrl>
+  <Point><coordinates>18.12382689705691,-33.19008443560976,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Hide</name>
+  
+  <styleUrl>#style_BIRD_HIDES</styleUrl>
+  <Point><coordinates>18.0586391809805,-33.12648604142776,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Geelbek Hide</name>
+  
+  <styleUrl>#style_BIRD_HIDES</styleUrl>
+  <Point><coordinates>18.12053593553945,-33.19414618442889,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Geelbek Hide</name>
+  
+  <styleUrl>#style_BIRD_HIDES</styleUrl>
+  <Point><coordinates>18.12150175873725,-33.20161835968084,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Water Holes</name></Folder><Folder><name>Dams</name></Folder><Folder><name>Waypoints</name></Folder><Folder><name>POI</name><Placemark>
+  <name>Atlantic Viewpoint</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>18.0892743190951,-33.20858542702879,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Lookout</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>18.0783718012919,-33.12205081234872,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Lookout</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>18.00574756451184,-33.10734843027245,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Camps</name><Folder><name>Rest Camps</name><Placemark>
+  <name>Abrahamskraal Cottage</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>18.13330227801105,-33.23310237599772,0</coordinates></Point>
+</Placemark></Folder></Folder><Folder><name>Other Features (Viewpoints, Lookouts, Pans, Trails - not in the requested category list, kept so no surveyed data is lost)</name><Placemark>
+  <name>West Coast National Park</name>
+  
+  <styleUrl>#style_OTHER</styleUrl>
+  <Point><coordinates>18.16976110503348,-33.18229933320081,0</coordinates></Point>
+</Placemark></Folder>
+</Document>
+</kml>

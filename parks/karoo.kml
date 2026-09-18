@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Karoo National Park</name>
+<description>Restructured from source 'My Places.kmz' (folder: Karoo National Park). Boundary is empty - no boundary geometry exists in the source data.</description>
+<Style id="style_GATES">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/gate.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_CAMPS">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/camp.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_PICNIC">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/picnic.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_POI">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/poi.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_WATER_HOLES">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/waterhole.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_OTHER">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/lookout.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_BIRD_HIDES">
+  <IconStyle><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_DAMS">
+  <IconStyle><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_WAYPOINTS">
+  <IconStyle><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_MAIN_ROADS">
+  <LineStyle><color>ff0055ff</color><width>4</width></LineStyle>
+</Style>
+<Style id="style_BOUNDARY">
+  <LineStyle><color>ff0000ff</color><width>3</width></LineStyle>
+  <PolyStyle><color>330000ff</color></PolyStyle>
+</Style><Folder><name>Boundary</name></Folder><Folder><name>Main Roads</name></Folder><Folder><name>Gates</name><Placemark>
+  <name>Main Gate</name>
+  
+  <styleUrl>#style_GATES</styleUrl>
+  <Point><coordinates>22.54136686424311,-32.36335735217593,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Picnic Spots</name><Placemark>
+  <name>Bulkraal Picnic Spot</name>
+  
+  <styleUrl>#style_PICNIC</styleUrl>
+  <Point><coordinates>22.56151745506484,-32.29587568091017,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>DoornHoek Picnic Spot</name>
+  
+  <styleUrl>#style_PICNIC</styleUrl>
+  <Point><coordinates>22.38661900006364,-32.27012173875375,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Bird Hides</name></Folder><Folder><name>Water Holes</name></Folder><Folder><name>Dams</name></Folder><Folder><name>Waypoints</name></Folder><Folder><name>POI</name><Placemark>
+  <name>Viewpoint</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>22.45867312875614,-32.26848128057598,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Viewpoint</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>22.46370357525865,-32.32993271748244,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Viewpoint</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>22.45137929342537,-32.32562758718081,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Camps</name><Placemark>
+  <name>Main Camp</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>22.50062201274563,-32.33088193049347,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Emizweni Cottage</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>22.22663014840842,-32.2024972195161,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Other Features (Viewpoints, Lookouts, Pans, Trails - not in the requested category list, kept so no surveyed data is lost)</name><Placemark>
+  <name>Karoo National Park</name>
+  
+  <styleUrl>#style_OTHER</styleUrl>
+  <Point><coordinates>22.2995,-32.241844,0</coordinates></Point>
+</Placemark></Folder>
+</Document>
+</kml>

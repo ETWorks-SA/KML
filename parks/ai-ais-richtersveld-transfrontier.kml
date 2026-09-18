@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Ai-Ais Richtersveld Transfrontier Park</name>
+<description>Restructured from source 'My Places.kmz' (folder: |Ai-|Ais/Richtersveld Transfrontier Park). Boundary is empty - no boundary geometry exists in the source data.</description>
+<Style id="style_GATES">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/gate.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_CAMPS">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/camp.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_PICNIC">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/picnic.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_POI">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/poi.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_WATER_HOLES">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/waterhole.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_OTHER">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/lookout.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_BIRD_HIDES">
+  <IconStyle><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_DAMS">
+  <IconStyle><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_WAYPOINTS">
+  <IconStyle><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_MAIN_ROADS">
+  <LineStyle><color>ff0055ff</color><width>4</width></LineStyle>
+</Style>
+<Style id="style_BOUNDARY">
+  <LineStyle><color>ff0000ff</color><width>3</width></LineStyle>
+  <PolyStyle><color>330000ff</color></PolyStyle>
+</Style><Folder><name>Boundary</name></Folder><Folder><name>Main Roads</name></Folder><Folder><name>Gates</name><Placemark>
+  <name>Richtersveld Park Entrance</name>
+  
+  <styleUrl>#style_GATES</styleUrl>
+  <Point><coordinates>16.9397,-28.291567,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Helskloof gate</name>
+  
+  <styleUrl>#style_GATES</styleUrl>
+  <Point><coordinates>16.955467,-28.2993,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Picnic Spots</name></Folder><Folder><name>Bird Hides</name></Folder><Folder><name>Water Holes</name></Folder><Folder><name>Dams</name></Folder><Folder><name>Waypoints</name><Placemark>
+  <name>Turn-off to Gannakouriep</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>17.103367,-28.307567,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Turn-off to Hakkiesdoring</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>17.1718,-28.3947,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Turn-off to Kokerboomkloof</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>17.2793,-28.32946700000001,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Turn-off</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>16.871217,-28.46565,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Turn-off to Stofbakkies</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>16.828117,-28.485467,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Lekkersing turn-off</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>16.947817,-28.452483,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Gannakouriep Hakkiesdoring fork</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>17.16645,-28.3669,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>R 1</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>16.935017,-28.11365,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>R 10</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>17.324567,-28.347117,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>R 11</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>17.201583,-28.245283,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>R 12</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>17.220733,-28.254217,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>R 13</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>17.055117,-28.230667,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>R 14</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>17.03125,-28.293183,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>R 15</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>16.9947,-28.2795,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>R 17</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>17.164833,-28.3455,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>R 18</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>17.154267,-28.3945,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>R 2</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>17.009483,-28.12345,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>R 3</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>17.053517,-28.193033,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>R 4</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>17.09235,-28.212267,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>R 5</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>17.124833,-28.18525,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>R 6</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>17.13665,-28.264183,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>R 7</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>17.123717,-28.3056,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>R 8</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>17.1867,-28.324667,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>R 9</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>17.2347,-28.36538300000001,0</coordinates></Point>
+</Placemark></Folder><Folder><name>POI</name><Placemark>
+  <name>Aloe Pearsonii</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>16.9905,-28.332533,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Basterkokerboom</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>16.8842,-28.419267,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Grasdrif ruins</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>17.38065,-28.335617,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Halfmensbome</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>16.982883,-28.138917,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Hand of God</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>17.00965,-28.121967,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Koerdegab Pass</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>17.043533,-28.275267,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Kokerboom</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>17.2497,-28.3366,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Penkop Pass or Akkedis Pass</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>17.023967,-28.163867,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Springbokvlakte</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>17.26445,-28.33075,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Kodas Piek</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>16.99216,-28.22738,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Camps</name><Folder><name>Camping Sites</name><Placemark>
+  <name>Kokerboomkloof Camp Site</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>17.291267,-28.307233,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>De Hoop Camp Site</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>17.178033,-28.183683,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Richtersburg Camp Site</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>17.213217,-28.250933,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Rest Camps</name><Placemark>
+  <name>Kubus Rest Camp and Chalets</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>16.994633,-28.4399,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Potjiespram Rest Camp</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>16.96315,-28.0747,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Sendlingsdrif Rest Camp</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>16.8916,-28.12523300000001,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Wilderness Camps</name><Placemark>
+  <name>Hakkiesdoring Wilderness Camp</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>17.169133,-28.393683,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Ganakouriep Wilderness Camp</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>17.159767,-28.38745,0</coordinates></Point>
+</Placemark></Folder></Folder><Folder><name>Other Features (Viewpoints, Lookouts, Pans, Trails - not in the requested category list, kept so no surveyed data is lost)</name></Folder>
+</Document>
+</kml>

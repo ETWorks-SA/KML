@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Addo Elephant National Park</name>
+<description>Restructured from source 'My Places.kmz' (folder: Addo Elephant National Park). Boundary is empty - no boundary geometry exists in the source data.</description>
+<Style id="style_GATES">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/gate.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_CAMPS">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/camp.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_PICNIC">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/picnic.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_POI">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/poi.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_WATER_HOLES">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/waterhole.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_OTHER">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/lookout.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_BIRD_HIDES">
+  <IconStyle><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_DAMS">
+  <IconStyle><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_WAYPOINTS">
+  <IconStyle><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_MAIN_ROADS">
+  <LineStyle><color>ff0055ff</color><width>4</width></LineStyle>
+</Style>
+<Style id="style_BOUNDARY">
+  <LineStyle><color>ff0000ff</color><width>3</width></LineStyle>
+  <PolyStyle><color>330000ff</color></PolyStyle>
+</Style><Folder><name>Boundary</name></Folder><Folder><name>Main Roads</name></Folder><Folder><name>Gates</name><Placemark>
+  <name>Addo Enterance</name>
+  
+  <styleUrl>#style_GATES</styleUrl>
+  <Point><coordinates>25.73869289001018,-33.44439379980457,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mathyolweni Gate</name>
+  
+  <styleUrl>#style_GATES</styleUrl>
+  <Point><coordinates>25.79936775101055,-33.68037612243904,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Kabouga Gate</name>
+  
+  <styleUrl>#style_GATES</styleUrl>
+  <Point><coordinates>25.45916666666667,-33.3775,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Picnic Spots</name><Placemark>
+  <name>Nyati Waterhole, Picnic Spot</name>
+  
+  <styleUrl>#style_PICNIC</styleUrl>
+  <Point><coordinates>25.74638888888889,-33.44527777777778,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Bird Hides</name></Folder><Folder><name>Water Holes</name><Placemark>
+  <name>Domkrag</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>25.78311280837529,-33.44060585908706,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Hapoor</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>25.74027721343745,-33.50298526171831,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Janwal Pan</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>25.76454032199377,-33.49065881137058,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Miriamberee</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>25.77554375925118,-33.5275675339752,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Woodlands</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>25.7708564071457,-33.44544343040258,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Carols Rest</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>25.82108282137088,-33.48393444851045,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Spekboom</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>25.75250891832468,-33.51260550283489,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Dams</name><Placemark>
+  <name>Darlington Dam</name>
+  
+  <styleUrl>#style_DAMS</styleUrl>
+  <Point><coordinates>25.14834412288363,-33.17869981344502,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Ghwarrie Dam</name>
+  
+  <styleUrl>#style_DAMS</styleUrl>
+  <Point><coordinates>25.76416666666667,-33.45277777777778,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Rooidam</name>
+  
+  <styleUrl>#style_DAMS</styleUrl>
+  <Point><coordinates>25.75055555555555,-33.45444444444445,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Waypoints</name></Folder><Folder><name>POI</name><Placemark>
+  <name>Sundays River Mouth</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>25.85083333333333,-33.72055555555556,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Woody Cape Office</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>26.365,-33.70138888888889,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Darlington Offices</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>25.14361111111111,-33.20944444444445,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Zuurberg Office</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>25.7451866110079,-33.35819903830581,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Domkrag</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>25.7825,-33.44027777777777,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Kadouw Lookout</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>25.76166666666667,-33.49222222222223,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Spekboom Lookout</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>25.75349837109214,-33.51196023083997,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Zuurkop Lookout</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>25.78472222222223,-33.46250000000001,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Camps</name><Placemark>
+  <name>Addo Rest Camp (Main Camp)</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>25.74636322642434,-33.44383412522808,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Camp Matyholweni (Rest Camp)</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>25.80291410250563,-33.67297825099344,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mvubu Camp site</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>25.35861111111111,-33.33972222222222,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Kabouga House</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>25.38305555555557,-33.30472222222222,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Langebos Huts</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>26.36633516956139,-33.70214798900666,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Narina Bush Camp</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>25.68944444444445,-33.35138888888889,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Other Features (Viewpoints, Lookouts, Pans, Trails - not in the requested category list, kept so no surveyed data is lost)</name><Placemark>
+  <name>Addo Elephant National Park</name>
+  
+  <styleUrl>#style_OTHER</styleUrl>
+  <Point><coordinates>25.82955242284673,-33.51180425149494,0</coordinates></Point>
+</Placemark></Folder>
+</Document>
+</kml>

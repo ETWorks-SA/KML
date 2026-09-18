@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Garden Route National Park</name>
+<description>Restructured from source 'My Places.kmz' (folder: Garden Route (Tsitsikamma, Knysna, Wilderness) National Park). Boundary is empty - no boundary geometry exists in the source data.</description>
+<Style id="style_GATES">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/gate.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_CAMPS">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/camp.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_PICNIC">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/picnic.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_POI">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/poi.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_WATER_HOLES">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/waterhole.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_OTHER">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/lookout.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_BIRD_HIDES">
+  <IconStyle><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_DAMS">
+  <IconStyle><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_WAYPOINTS">
+  <IconStyle><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_MAIN_ROADS">
+  <LineStyle><color>ff0055ff</color><width>4</width></LineStyle>
+</Style>
+<Style id="style_BOUNDARY">
+  <LineStyle><color>ff0000ff</color><width>3</width></LineStyle>
+  <PolyStyle><color>330000ff</color></PolyStyle>
+</Style><Folder><name>Boundary</name></Folder><Folder><name>Main Roads</name></Folder><Folder><name>Gates</name><Placemark>
+  <name>Tsitsikamma Gate</name>
+  
+  <styleUrl>#style_GATES</styleUrl>
+  <Point><coordinates>23.86906796796519,-34.01105397506554,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Picnic Spots</name></Folder><Folder><name>Bird Hides</name></Folder><Folder><name>Water Holes</name></Folder><Folder><name>Dams</name></Folder><Folder><name>Waypoints</name></Folder><Folder><name>POI</name></Folder><Folder><name>Camps</name><Placemark>
+  <name>Natures Valley</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>23.56273429759287,-33.97300782307471,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Storms River Rest Camp</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>23.89677911925656,-34.02115715124208,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Other Features (Viewpoints, Lookouts, Pans, Trails - not in the requested category list, kept so no surveyed data is lost)</name><Placemark>
+  <name>Garden Route National Park</name>
+  
+  <styleUrl>#style_OTHER</styleUrl>
+  <Point><coordinates>23.4537973,-33.8341255,0</coordinates></Point>
+</Placemark></Folder>
+</Document>
+</kml>

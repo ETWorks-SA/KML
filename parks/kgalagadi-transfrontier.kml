@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<name>Kgalagadi Transfrontier Park</name>
+<description>Restructured from source 'My Places.kmz' (folder: Khalagadi Transfrontier Park). Boundary is empty - no boundary geometry exists in the source data.</description>
+<Style id="style_GATES">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/gate.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_CAMPS">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/camp.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_PICNIC">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/picnic.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_POI">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/poi.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_WATER_HOLES">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/waterhole.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_OTHER">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/lookout.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_BIRD_HIDES">
+  <IconStyle><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_DAMS">
+  <IconStyle><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/blu-circle.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_WAYPOINTS">
+  <IconStyle><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/wht-blank.png</href></Icon></IconStyle>
+  <LabelStyle><scale>0.8</scale></LabelStyle>
+</Style>
+<Style id="style_MAIN_ROADS">
+  <LineStyle><color>ff0055ff</color><width>4</width></LineStyle>
+</Style>
+<Style id="style_BOUNDARY">
+  <LineStyle><color>ff0000ff</color><width>3</width></LineStyle>
+  <PolyStyle><color>330000ff</color></PolyStyle>
+</Style><Folder><name>Boundary</name></Folder><Folder><name>Main Roads</name></Folder><Folder><name>Gates</name><Placemark>
+  <name>Kaa</name>
+  
+  <styleUrl>#style_GATES</styleUrl>
+  <Point><coordinates>20.62605065005904,-24.35868251094622,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mabuasehube</name>
+  
+  <styleUrl>#style_GATES</styleUrl>
+  <Point><coordinates>22.15700371153593,-25.08303152195103,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mata Mata</name>
+  
+  <styleUrl>#style_GATES</styleUrl>
+  <Point><coordinates>19.99925885204658,-25.76750693131579,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Twee Rivieren</name>
+  
+  <styleUrl>#style_GATES</styleUrl>
+  <Point><coordinates>20.61409458225299,-26.47531626713917,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Picnic Spots</name><Placemark>
+  <name>Auchterlonie Picnic Spot</name>
+  
+  <styleUrl>#style_PICNIC</styleUrl>
+  <Point><coordinates>20.54639718050959,-26.18443041871749,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Dikbaardskolk Picnic Spot</name>
+  
+  <styleUrl>#style_PICNIC</styleUrl>
+  <Point><coordinates>20.72940237874285,-25.77040531020087,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Kamqua Picnic Spot</name>
+  
+  <styleUrl>#style_PICNIC</styleUrl>
+  <Point><coordinates>20.4049323888393,-26.02234683714466,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Lijersdraai Picnic Spot</name>
+  
+  <styleUrl>#style_PICNIC</styleUrl>
+  <Point><coordinates>20.34818390370539,-25.02685113373527,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Melkvlei Picnic Spot</name>
+  
+  <styleUrl>#style_PICNIC</styleUrl>
+  <Point><coordinates>20.85468507700128,-26.14249275264615,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Unions End Picnic Spot</name>
+  
+  <styleUrl>#style_PICNIC</styleUrl>
+  <Point><coordinates>20.03530717012276,-24.80670291593727,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Bird Hides</name><Placemark>
+  <name>Nossob Hide</name>
+  
+  <styleUrl>#style_BIRD_HIDES</styleUrl>
+  <Point><coordinates>20.597949,-25.42092600000001,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Water Holes</name><Placemark>
+  <name>Auchterlone Waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.54536531388035,-26.18562074835349,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Batulama waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.491562,-26.112313,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Bedinkt waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.487185,-25.225317,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Cheleka waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.686355,-25.636039,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Craig Lochart</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.10262845994682,-25.86509784565201,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Cubitje Quap waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.549541,-25.370715,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Dalkeith waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.163174,-25.903015,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Dertiende Boorgat</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.27912147727676,-25.97114591676241,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Dikbaardskolk waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.72706,-25.74425,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Eland waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.634899,-25.775042,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Geinab water hole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.101376,-24.860859,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Gemsbok water hole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.655434,-26.343198,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Gemsbokplein waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.530379,-26.151817,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Gunong waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.83952,-26.079783,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Houmoed waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.59139642145846,-26.33910427548035,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Jan se Draai waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.8148,-25.934687,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Kameelsleep waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.742767,-25.82624,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Kamfersboom waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.5619,-26.22576,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Kamqua waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.398951,-26.011677,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Kannaguass waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.215187,-24.916821,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Kij Gamies water hole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.656357,-26.120682,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Kij Kij waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.809436,-26.226382,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Kousant waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.424786,-25.146847,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Kransbrak waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.829499,-26.021998,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Langklaas waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.459483,-25.155087,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Leeudril waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.697598,-26.386027,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Lijersdraai waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.323677,-25.00351,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Marie se Draai Waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.67174969788436,-25.45190183144342,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mata-Mata waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.000696,-25.765536,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Melkvlei waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.855033,-26.142612,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Monro waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.583186,-26.291313,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Montrose waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.463023,-26.077294,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Morevet waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.476971,-25.819416,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mpayathutlwa pan waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>21.989501,-25.056424,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Polentswa water hole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.412598,-25.084362,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Rooibrak waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.431867,-26.046009,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Rooikop Waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.61474877429336,-25.45150394588501,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Rooiputs waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.737381,-26.323414,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Samevloeing waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.624599,-26.434135,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Sitzas waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.047817,-25.820789,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Tier Kop waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.719872,-26.16291,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Kaapsedraai Waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.69314192969357,-25.58643165491337,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Urikaruus waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.341058,-25.996549,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Vaal pan waterhole</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.43972,-25.916576,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Viertiende Boorgat</name>
+  
+  <styleUrl>#style_WATER_HOLES</styleUrl>
+  <Point><coordinates>20.218105,-25.946274,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Dams</name></Folder><Folder><name>Waypoints</name><Placemark>
+  <name>Bitterpan Trail</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>20.595589,-25.42305,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Bitterpan Trail Finish</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>20.103779,-25.866795,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Gharagab Wilderness Trail</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>20.024128,-24.80112099999999,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Gharagab Wilderness Trail Finish</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>20.313892,-25.032177,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Kaa Wilderness Trail Start and Finish</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>20.61842,-24.365101,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Leeuwdril trail</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>20.697366,-26.368541,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Leeuwdril trail Finish</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>20.590635,-26.33542,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mabuasehube Wilderness Trail</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>21.803913,-25.027199,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Nossob Trail</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>20.408993,-25.10479,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Nossob Trail Finish</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>20.819435,-26.180763,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Polentswa trail Section 1</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>20.409508,-25.093803,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Polentswa trail Section 1 Finish</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>20.630436,-24.360638,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Polentswa trail Section 2</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>20.625801,-24.363041,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Polentswa trail Section 2 Finish</name>
+  
+  <styleUrl>#style_WAYPOINTS</styleUrl>
+  <Point><coordinates>20.317669,-24.987888,0</coordinates></Point>
+</Placemark></Folder><Folder><name>POI</name><Placemark>
+  <name>Auchterlonie Museum</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>20.54662423578277,-26.18480533941331,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Meerkat Colony</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>21.989758,-25.052669,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Memorial Stone Prof Eiope</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>20.530529,-26.151409,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Ruins</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>20.573809,-26.242518,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Unions End</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>19.99914481855631,-24.76875443851998,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Lookout</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>20.569754,-25.39773,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Viewpoint</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>20.65588729565102,-26.1184942196577,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Viewpoint</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>20.801818,-25.864477,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Viewpoint</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>20.55861624653893,-26.20425860294118,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Viewpoint</name>
+  
+  <styleUrl>#style_POI</styleUrl>
+  <Point><coordinates>20.413134,-26.029873,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Camps</name><Folder><name>Camping Sites</name><Placemark>
+  <name>Mabu Gb1 campsite</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>22.063444,-25.230103,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mabu Gb2 Campsite</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>22.048209,-25.24538,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mabu Ge1 campsite</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>22.154081,-25.082817,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mabu Ge2 campsite</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>22.154639,-25.083075,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mabu Ge3 campsite</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>22.15481,-25.083611,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mabu Gk1 campsite</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>21.900322,-25.007973,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mabu Gk2 campsite</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>21.900194,-25.008702,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mabu Gl1 campsite</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>22.04808,-24.944673,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mabu Gl2 Campsite</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>22.05795,-24.940403,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mabu Gm01 campsite</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>22.104385,-25.056982,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mabu Gm02 campsite</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>22.105908,-25.054536,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mabu Gma1 campsite</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>21.989093,-24.973576,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mabu Gma2 campsite</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>21.993663,-24.980378,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mabu Gma3 campsite</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>21.994479,-24.980657,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mabu Gma4 Campsite</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>22.000251,-24.98143,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mabu Gmp1 campsite</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>21.983171,-25.061274,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mabu Gmp2 campsite</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>21.98051,-25.066144,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Matopi camp 1</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>21.406903,-25.240724,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Matopi camp 2</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>21.511509,-25.249758,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Polentswa Campsite</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>20.428369,-25.087581,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Rooiputs Campsite</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>20.738862,-26.328628,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Two Rivers Campsite</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>20.623612,-26.471429,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Private Camps and Lodges</name><Placemark>
+  <name>!Xaus</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>20.25654315496137,-26.14992123123687,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Rest Camps</name><Placemark>
+  <name>Bitterpan</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>20.40323034596393,-25.7163025154823,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Gharagab</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>20.08442315211531,-25.04302220632081,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Grootkolk</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>20.14505931679286,-24.89089852323843,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Kielie-Krankie Wilderness Camp</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>20.5922712352077,-26.18369726378712,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mata Mata</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>20.00057416105603,-25.76798526390447,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Nossob</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>20.59686376546853,-25.4215204367503,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Twee Rivieren</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>20.6117865290805,-26.4722931096406,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Urikaruus</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>20.35027041027991,-26.01079773948677,0</coordinates></Point>
+</Placemark></Folder><Folder><name>Tented Camp</name><Placemark>
+  <name>Kalahari Tented Camp</name>
+  
+  <styleUrl>#style_CAMPS</styleUrl>
+  <Point><coordinates>20.01788070438052,-25.78619739652328,0</coordinates></Point>
+</Placemark></Folder></Folder><Folder><name>Other Features (Viewpoints, Lookouts, Pans, Trails - not in the requested category list, kept so no surveyed data is lost)</name><Placemark>
+  <name>Kgalagadi Transfrontier Park</name>
+  
+  <styleUrl>#style_OTHER</styleUrl>
+  <Point><coordinates>20.91200833190186,-25.43674912509362,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Boundary</name>
+  
+  <styleUrl>#style_OTHER</styleUrl>
+  <LineString><tessellate>1</tessellate><coordinates>19.99869945512651,-24.09690392542623,0 21.83892535256066,-24.85266028247147,0 22.15753513672928,-24.85274036815784,0 22.15735862062377,-25.37031505579765,0 21.83882730303886,-25.37024722642814,0 21.61329241975048,-25.65178202544865,0 21.56905859465189,-25.70710307616205,0 21.52811887693283,-25.75916523085559,0 21.46772039698783,-25.83603024423756,0 21.37188433377437,-25.95784805697466,0 21.22407685273823,-26.14589972295986,0 21.12153539414088,-26.27711626573686,0 21.08613456390493,-26.32231866677557,0 21.01325539668557,-26.41464670107929,0 20.62744747801762,-26.46999566014714,0 20.62997763107677,-26.47306834839892,0 20.61599444819361,-26.47432380334523,0 20.61485955451928,-26.47546712234941,0 20.61284012489181,-26.47505810399406,0 20.61267396823912,-26.47566149713638,0 20.61181324733355,-26.47548914754365,0 20.61056450645975,-26.4730122277346,0 20.61063461293081,-26.47246135864968,0 20.60799660364228,-26.47002578585521,0 20.60768313592778,-26.4698725426698,0 20.60785763836719,-26.46951625771626,0 20.60741331395895,-26.46940806793312,0 20.60527121407961,-26.46788316958571,0 20.60414528632078,-26.46937677947771,0 20.59885414516037,-26.46639538192048,0 20.58017960748635,-26.45202889530784,0 20.57687769826761,-26.44873015610952,0 20.55947228932368,-26.43662929281244,0 20.53941285337167,-26.42778446626924,0 20.52846263443369,-26.42226824673967,0 20.50380273334976,-26.40808959706938,0 20.50037051062491,-26.40635198652384,0 20.49843737467763,-26.40562760472057,0 20.48572774812915,-26.40177379017365,0 20.47084614711047,-26.39388801866005,0 20.47020115545948,-26.39347096008591,0 20.47021093733089,-26.39146146694353,0 20.46885438392866,-26.39053543425014,0 20.46862385983993,-26.39042157929785,0 20.46846230440445,-26.39024127440387,0 20.46341190254146,-26.38667774138342,0 20.46282501165025,-26.38629637401835,0 20.46225649519666,-26.38586788639256,0 20.4608047151247,-26.38477557320536,0 20.4533003083288,-26.32847272691364,0 20.07001614614361,-26.04778417810923,0 20.07746164208763,-25.97318218911486,0 20.05559931825484,-25.95725466763889,0 20.05070517268784,-25.9556389154386,0 20.03039672669246,-25.94462639995905,0 19.99928728974534,-25.92240839380876,0 19.99869945512651,-24.09690392542623,0</coordinates></LineString>
+</Placemark>
+<Placemark>
+  <name>Bosobogolo Pan</name>
+  
+  <styleUrl>#style_OTHER</styleUrl>
+  <Point><coordinates>22.05098275247705,-25.23168086545795,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Khiding Pan</name>
+  
+  <styleUrl>#style_OTHER</styleUrl>
+  <Point><coordinates>21.89620538432161,-25.01117160986469,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Lesholoago Pan</name>
+  
+  <styleUrl>#style_OTHER</styleUrl>
+  <Point><coordinates>22.05308,-24.94242,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mabuasehube Pan</name>
+  
+  <styleUrl>#style_OTHER</styleUrl>
+  <Point><coordinates>21.997912,-24.970057,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mogobewatlhangwe pan</name>
+  
+  <styleUrl>#style_OTHER</styleUrl>
+  <Point><coordinates>21.777198,-24.948256,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mokgalo pan</name>
+  
+  <styleUrl>#style_OTHER</styleUrl>
+  <Point><coordinates>21.884809,-24.928,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Monamodi Pan</name>
+  
+  <styleUrl>#style_OTHER</styleUrl>
+  <Point><coordinates>22.105629,-25.059471,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Mpayathutlwa Pan</name>
+  
+  <styleUrl>#style_OTHER</styleUrl>
+  <Point><coordinates>21.9867265148842,-25.06772377742848,0</coordinates></Point>
+</Placemark>
+<Placemark>
+  <name>Unknown Pan</name>
+  
+  <styleUrl>#style_OTHER</styleUrl>
+  <Point><coordinates>21.49146978935742,-25.24506414025934,0</coordinates></Point>
+</Placemark></Folder>
+</Document>
+</kml>
