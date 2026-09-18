@@ -97,14 +97,25 @@ see "Known gaps" below.
 - **No coordinates were invented.** Every geometry in `/parks/*.kml` is
   copied byte-for-byte from your source file's `<coordinates>`. Nothing was
   estimated from memory.
-- **Icons:** categories that had a real custom icon in your source
-  (`Gates`, `Camps`, `Picnic Spots`, `POI`, `Water Holes`, and the bonus
-  "Other" bucket) reuse that icon, copied to `/icons`. Categories with
-  **no** custom icon anywhere in your source (`Bird Hides`, `Dams`,
-  `Waypoints`) currently use Google Earth's standard hosted placeholder
-  icons (a colored circle) so the file is still fully renderable — swap
-  these for real icons once you upload the set from your OneDrive link
-  (which this session cannot fetch — see below).
+- **Icons:** categories with a real custom icon (`Gates`, `Camps`,
+  `Picnic Spots`, `POI`, `Water Holes`, `Bird Hides`, and the bonus "Other"
+  bucket) use that icon, copied to `/icons`. `Bird Hides` was upgraded from
+  a placeholder to the real `birds-2.png` icon you added to git directly
+  (staged as `source/icons/`, promoted to `/icons/birdhide.png`).
+  `Dams` and `Waypoints` still have **no** dedicated icon anywhere in
+  anything supplied so far, and currently fall back to Google Earth's
+  standard hosted placeholder icons (colored circles) so the files stay
+  fully renderable.
+- **Boundary styling** (line + fill color) now uses the SANParks green
+  `#0d6129` you provided in `Colour.txt`, applied wherever a boundary
+  polygon eventually gets added. The polygons themselves are still empty —
+  color alone doesn't create geometry.
+- The full raw icon set you added to git (`knp4x4`, `knpairport`,
+  `knpcamping`, `knpcaravan`, `knpsec`, `knpspoor`, `knptrails`, `knptent`,
+  `knpnoentry`, etc.) is kept at `source/icons/` for provenance even though
+  most aren't wired into a category yet — say if you want any of them
+  mapped to a specific folder (e.g. `knpairport` for airstrips as a POI
+  subtype, `knpcaravan`/`knpcamping` as Camps subtypes).
 
 ## Known gaps (need input from you, not more processing)
 
@@ -119,10 +130,9 @@ see "Known gaps" below.
    Camdeboo, Karoo, Mountain Zebra, Namaqua, Table Mountain, West Coast) —
    have partial category coverage. Filling the empty categories needs more
    source data; it was not invented.
-4. **Dedicated Dam and Bird Hide icons** — your OneDrive link apparently
-   has these, but this session cannot reach OneDrive (`1drv.ms` is blocked
-   by the same egress policy). Upload the icon files directly and they'll
-   be dropped into `/icons` and wired in.
+4. **Dedicated Dam and Waypoint icons** — not in the icon set added to git
+   yet. Still using Google's generic placeholder circle for those two
+   categories.
 
 ## Repo layout
 

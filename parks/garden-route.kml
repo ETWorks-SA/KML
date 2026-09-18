@@ -23,12 +23,12 @@
   <IconStyle><scale>0.9</scale><Icon><href>../../icons/waterhole.png</href></Icon></IconStyle>
   <LabelStyle><scale>0.8</scale></LabelStyle>
 </Style>
-<Style id="style_OTHER">
-  <IconStyle><scale>0.9</scale><Icon><href>../../icons/lookout.png</href></Icon></IconStyle>
+<Style id="style_BIRD_HIDES">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/birdhide.png</href></Icon></IconStyle>
   <LabelStyle><scale>0.8</scale></LabelStyle>
 </Style>
-<Style id="style_BIRD_HIDES">
-  <IconStyle><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/paddle/grn-circle.png</href></Icon></IconStyle>
+<Style id="style_OTHER">
+  <IconStyle><scale>0.9</scale><Icon><href>../../icons/lookout.png</href></Icon></IconStyle>
   <LabelStyle><scale>0.8</scale></LabelStyle>
 </Style>
 <Style id="style_DAMS">
@@ -43,8 +43,8 @@
   <LineStyle><color>ff0055ff</color><width>4</width></LineStyle>
 </Style>
 <Style id="style_BOUNDARY">
-  <LineStyle><color>ff0000ff</color><width>3</width></LineStyle>
-  <PolyStyle><color>330000ff</color></PolyStyle>
+  <LineStyle><color>ff29610d</color><width>3</width></LineStyle>
+  <PolyStyle><color>4029610d</color></PolyStyle>
 </Style><Folder><name>Boundary</name></Folder><Folder><name>Main Roads</name></Folder><Folder><name>Gates</name><Placemark>
   <name>Tsitsikamma Gate</name>
   
