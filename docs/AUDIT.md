@@ -58,7 +58,7 @@ nothing was dropped or double-counted during restructuring.
 | Bontebok | 0 | 0 | 1 | 2 | 1 | 0 | 0 | 0 | 0 | 1 | 6 |
 | Camdeboo | 0 | 0 | 2 | 2 | 0 | 1 | 0 | 0 | 0 | 2 | 1 |
 | Garden Route | 0 | 0 | 1 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
-| Golden Gate Highlands | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Golden Gate Highlands | 0 | 0 | 1 | 3 | 0 | 0 | 0 | 0 | 0 | 1 | 0 |
 | Karoo | 0 | 0 | 1 | 2 | 2 | 0 | 0 | 0 | 0 | 3 | 1 |
 | Kgalagadi Transfrontier | 0 | 0 | 4 | 32 | 6 | 1 | 45 | 0 | 14 | 10 | 11 |
 | Kruger | 0 | 40 | 19 | 48 | 12 | 11 | 80 | 50 | 0 | 40 | 13 |
@@ -177,12 +177,40 @@ for all three is present in `source/wdpa/` if you want them built later.
   mapped to a specific folder (e.g. `knpairport` for airstrips as a POI
   subtype, `knpcaravan`/`knpcamping` as Camps subtypes).
 
+## Manually-sourced data
+
+For categories with no digital source at all, you can retrieve
+coordinates yourself from the SANParks website (or elsewhere) and hand
+them over as a plain list — I'll place and style them consistently rather
+than you having to write KML by hand. These live in `source/manual_data/
+<slug>.json` per park (kept separate from the KMZ/WDPA provenance so it's
+clear what came from where) and get merged in at build time.
+
+**Golden Gate Highlands — first entries added** (`source/manual_data/
+golden-gate-highlands.json`): West Gate (Gates), Glen Reenen Rest Camp
+(Camps → Rest Camps), Golden Gate Hotel and Chalets + Highlands Mountain
+Retreat (Camps → Private Camps and Lodges), Basotho Cultural Village (POI).
+
+**Data quality flag — needs your check, not mine:** the coordinates you
+supplied for Glen Reenen Rest Camp and Basotho Cultural Village share the
+exact same longitude, 28.744250°E, matching to 0.1 arc-second (~3m). Two
+different named landmarks matching that precisely is not something that
+happens by chance — it reads like a copy-paste artifact in the source
+list. Both points independently fall inside the park's WDPA boundary
+polygon, so it's not an obviously wrong result, but that's a weak check
+(the park spans a wide area) — it doesn't confirm the longitude is right
+for Basotho specifically. I used the coordinate as supplied and flagged it
+here and in the JSON source rather than silently trusting or silently
+"fixing" it. Please re-check that one value against the SANParks site.
+
 ## Known gaps (need input from you, not more processing)
 
 1. ~~Boundaries for all 19 parks~~ — **done**, from WDPA. See above.
-2. **Golden Gate Highlands, Mapungubwe, Marakele** now have a boundary but
-   still have zero Gates/Camps/Picnic/Hides/Water Holes/Dams/Waypoints/POI
-   data — no source for those categories exists yet for these three.
+2. **Golden Gate Highlands** now has a boundary plus a Gate, 3 Camps and 1
+   POI (manually retrieved by the user from the SANParks website — see
+   "Manually-sourced data" below). Still missing Picnic/Bird Hides/Water
+   Holes/Dams/Waypoints. **Mapungubwe, Marakele** still have only a
+   boundary — no other categories have any source yet.
 3. **Thin parks** (Agulhas, Bontebok, Augrabies Falls, Garden Route,
    Camdeboo, Karoo, Mountain Zebra, Namaqua, Table Mountain, West Coast) —
    have partial category coverage beyond their (now real) boundary. Filling

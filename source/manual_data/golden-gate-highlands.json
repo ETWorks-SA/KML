@@ -1,0 +1,7 @@
+[
+  {"category": "GATES", "name": "West Gate", "lat": -28.501389, "lon": 28.578611},
+  {"category": "CAMPS", "group": "Rest Camps", "name": "Glen Reenen Rest Camp", "lat": -28.505917, "lon": 28.744250},
+  {"category": "CAMPS", "group": "Private Camps and Lodges", "name": "Golden Gate Hotel and Chalets", "lat": -28.504528, "lon": 28.609389},
+  {"category": "CAMPS", "group": "Private Camps and Lodges", "name": "Highlands Mountain Retreat", "lat": -28.489056, "lon": 28.642306},
+  {"category": "POI", "name": "Basotho Cultural Village", "lat": -28.487861, "lon": 28.744250, "note": "Coordinate as supplied by user shares an identical longitude (28.744250) with Glen Reenen Rest Camp to 0.1 arc-second - flagged for verification, not independently confirmed."}
+]
