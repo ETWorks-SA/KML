@@ -13,7 +13,8 @@ upload).
 ```
 source/My_Places.kmz   - original source export, kept for provenance
 source/icons/          - full raw icon set + brand color, kept for provenance
+source/wdpa/           - WDPA boundary shapefiles, kept for provenance
 icons/*.png            - curated category icons used by every park KML
-parks/<slug>.kml       - one KML per national park
+parks/<slug>.kml       - one KML per national park (now includes Boundary)
 docs/AUDIT.md          - audit findings, coverage matrix, known gaps
 ```

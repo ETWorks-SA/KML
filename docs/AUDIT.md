@@ -11,6 +11,13 @@ it (1,033 mountain passes worldwide, global shipwrecks, birding spots,
 Greater Kruger private reserves) is out of scope and was **not** carried
 into `/parks`. Only the `SanParks` subfolder was used.
 
+`source/wdpa/part{0,1,2}` — the South-Africa-filtered WDPA (World Database
+on Protected Areas) shapefile export you downloaded from Protected Planet
+and added to git, split into its 3 delivered parts. Used for **Boundary**
+geometry only (see below); the full multi-language documentation bundle
+that ships with a WDPA download was not kept, only the shapefile
+components (`.shp/.shx/.dbf/.prj/.cpg`).
+
 **XML validity bug found and not carried forward:** `doc.kml` uses
 `xsi:schemaLocation` on one `<Document>` node without ever declaring the
 `xsi` namespace prefix — `xmllint` rejects the file outright on that line.
@@ -69,11 +76,64 @@ nothing was dropped or double-counted during restructuring.
 source but aren't one of your 10 requested categories. Kept rather than
 deleted since it's real surveyed data; feel free to say drop it.
 
-**Boundary is 0 for every single park.** No boundary polygon exists in the
-source data for any actual national park (only for unrelated Greater
-Kruger private reserves, which were excluded as out of scope). This is the
-one category that needs a new data source before it can be filled in —
-see "Known gaps" below.
+**Boundary is now populated for all 19 parks from WDPA — see below.** The
+`My_Places.kmz` source itself still has zero boundary polygons for any
+actual national park (only for unrelated Greater Kruger private reserves,
+excluded as out of scope); the boundary column in the table above reflects
+only the KMZ, not the WDPA layer added afterward.
+
+## Boundaries (from WDPA)
+
+All 19 parks now have a real boundary polygon, sourced from the WDPA
+extract you added to git, not invented. Method used, so it can be checked:
+
+- WDPA shapefiles use the standard Esri winding convention: outer
+  boundaries are digitized **clockwise**, holes **counter-clockwise**.
+  Each polygon "part" was classified by the sign of its shoelace-formula
+  signed area (negative = outer, positive = hole) — no simplification, no
+  smoothing, full original vertex count kept (~71,000 coordinate points
+  total across all 19 boundary layers).
+- Every hole was assigned to the specific outer section that spatially
+  contains it (point-in-polygon test), so a private concession or enclave
+  excluded from, say, Kruger's northern section doesn't get wrongly
+  subtracted from a different section.
+- Verified for every park: `outer_rings + holes == total shapefile parts`
+  (nothing silently dropped) and zero holes were left unassigned
+  (no orphans — every hole landed inside some outer ring).
+- Parks with naturally disjoint land (e.g. Addo Elephant's 42 separate
+  parcels — Zuurberg, Woody Cape, Kabouga, marine sections, etc.; Garden
+  Route's 17 sections spanning Tsitsikamma/Wilderness/Knysna; Table
+  Mountain's 28 sections) are rendered as a `MultiGeometry` of that many
+  `Polygon`s, each with its own holes — not force-merged into one shape.
+- Boundary line/fill uses the SANParks green (`#0d6129`) from `Colour.txt`.
+
+**Naming note:** WDPA hasn't been updated for two park mergers/renames —
+its record is filed under the pre-merger name, but the polygon is the
+correct location for that park:
+
+| WDPA record name | Matched to |
+|---|---|
+| Kalahari Gemsbok National Park | Kgalagadi Transfrontier Park |
+| Richtersveld National Park | Ai-Ais Richtersveld Transfrontier Park |
+| Mapungupwe National Park (WDPA's own typo) | Mapungubwe National Park |
+
+Also worth knowing before you check this: **WDPA boundaries are
+generalized outlines for global reporting, not survey-grade cadastral fence
+lines.** Good for "where is the park," not for anything needing
+meter-level precision — that would need SANParks' own cadastral GIS layer,
+which nothing supplied so far contains.
+
+**Three WDPA records were NOT matched to any of the 19 and are excluded
+from `/parks` — your call needed:**
+
+| WDPA name | Why excluded | What I'd want confirmed |
+|---|---|---|
+| Vaalbos National Park | (Likely) de-proclaimed in 2009 following land restitution claims — no longer a national park | Confirm it should stay excluded, or say if it needs including for historical reasons |
+| Groenkloof National Park | SANParks-managed reserve near Pretoria; (guessing) usually referred to as a nature reserve rather than counted among the flagship national-park list | Say if you want it added as a 20th park file |
+| Meerkat National Park | (guessing) Possibly the Northern Cape reserve associated with the SKA radio-telescope buffer zone — low confidence, not independently verified | Say if you want it added; I'd want to confirm what this actually is before building a file for it |
+
+I did not silently drop or silently add any of these — the shapefile data
+for all three is present in `source/wdpa/` if you want them built later.
 
 ## Design decisions made during restructuring
 
@@ -119,20 +179,19 @@ see "Known gaps" below.
 
 ## Known gaps (need input from you, not more processing)
 
-1. **Boundaries for all 19 parks.** Zero source data. Needs an authoritative
-   file (SANParks GIS export, a GPS boundary track, or similar) uploaded
-   directly to this session/repo. This session has no network access to
-   pull public sources (OSM, Protected Planet/WDPA, Wikipedia) — outbound
-   requests are blocked by environment policy.
-2. **Golden Gate Highlands, Mapungubwe, Marakele** — no source data at all.
-   Same as above: need an upload, not a link.
+1. ~~Boundaries for all 19 parks~~ — **done**, from WDPA. See above.
+2. **Golden Gate Highlands, Mapungubwe, Marakele** now have a boundary but
+   still have zero Gates/Camps/Picnic/Hides/Water Holes/Dams/Waypoints/POI
+   data — no source for those categories exists yet for these three.
 3. **Thin parks** (Agulhas, Bontebok, Augrabies Falls, Garden Route,
    Camdeboo, Karoo, Mountain Zebra, Namaqua, Table Mountain, West Coast) —
-   have partial category coverage. Filling the empty categories needs more
-   source data; it was not invented.
+   have partial category coverage beyond their (now real) boundary. Filling
+   the empty categories needs more source data; it was not invented.
 4. **Dedicated Dam and Waypoint icons** — not in the icon set added to git
    yet. Still using Google's generic placeholder circle for those two
    categories.
+5. **Vaalbos / Groenkloof / Meerkat** — see the table above, need your
+   decision on whether any of these should get a park file.
 
 ## Repo layout
 
