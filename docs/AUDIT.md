@@ -62,7 +62,7 @@ nothing was dropped or double-counted during restructuring.
 | Karoo | 0 | 0 | 1 | 2 | 2 | 0 | 0 | 0 | 0 | 3 | 1 |
 | Kgalagadi Transfrontier | 0 | 0 | 4 | 32 | 6 | 1 | 45 | 0 | 14 | 10 | 11 |
 | Kruger | 0 | 40 | 19 | 48 | 12 | 11 | 80 | 50 | 0 | 40 | 13 |
-| Mapungubwe | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Mapungubwe | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Marakele | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Mokala | 0 | 16 | 1 | 6 | 2 | 0 | 7 | 0 | 0 | 4 | 2 |
 | Mountain Zebra | 0 | 0 | 1 | 1 | 2 | 0 | 0 | 0 | 0 | 4 | 1 |
@@ -191,6 +191,18 @@ golden-gate-highlands.json`): West Gate (Gates), Glen Reenen Rest Camp
 (Camps → Rest Camps), Golden Gate Hotel and Chalets + Highlands Mountain
 Retreat (Camps → Private Camps and Lodges), Basotho Cultural Village (POI).
 
+**Mapungubwe — Entrance Gate added** (`source/manual_data/
+mapungubwe.json`), from the SANParks GPS waypoints page. That page also
+lists Mapungubwe Interpretation Centre, Confluence Lookout Decks, and
+Leokwe Rest Camp, but only as what3words addresses (e.g.
+`///juiciness.pocketing.barges`) with no lat/lon given alongside them.
+This session can't resolve what3words to coordinates — decoding needs
+their proprietary word-list/API, which isn't reachable here (same egress
+block as everything else external), and there's no offline algorithm to
+fall back on. Those 3 are not yet in the KML. To add them: open each
+what3words link yourself (it shows the coordinates on the map) and paste
+the lat/lon back, same as the rest.
+
 **Data quality flag — needs your check, not mine:** the coordinates you
 supplied for Glen Reenen Rest Camp and Basotho Cultural Village share the
 exact same longitude, 28.744250°E, matching to 0.1 arc-second (~3m). Two
@@ -209,8 +221,8 @@ here and in the JSON source rather than silently trusting or silently
 2. **Golden Gate Highlands** now has a boundary plus a Gate, 3 Camps and 1
    POI (manually retrieved by the user from the SANParks website — see
    "Manually-sourced data" below). Still missing Picnic/Bird Hides/Water
-   Holes/Dams/Waypoints. **Mapungubwe, Marakele** still have only a
-   boundary — no other categories have any source yet.
+   Holes/Dams/Waypoints. **Mapungubwe** now also has one Gate (Entrance
+   Gate, manually sourced). **Marakele** still has only a boundary.
 3. **Thin parks** (Agulhas, Bontebok, Augrabies Falls, Garden Route,
    Camdeboo, Karoo, Mountain Zebra, Namaqua, Table Mountain, West Coast) —
    have partial category coverage beyond their (now real) boundary. Filling
