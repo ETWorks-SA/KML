@@ -63,7 +63,7 @@ nothing was dropped or double-counted during restructuring.
 | Kgalagadi Transfrontier | 0 | 0 | 4 | 32 | 6 | 1 | 45 | 0 | 14 | 10 | 11 |
 | Kruger | 0 | 40 | 19 | 48 | 12 | 11 | 80 | 50 | 0 | 40 | 13 |
 | Mapungubwe | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| Marakele | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| Marakele | 0 | 0 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
 | Mokala | 0 | 16 | 1 | 6 | 2 | 0 | 7 | 0 | 0 | 4 | 2 |
 | Mountain Zebra | 0 | 0 | 1 | 1 | 2 | 0 | 0 | 0 | 0 | 4 | 1 |
 | Namaqua | 0 | 0 | 2 | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
@@ -203,6 +203,11 @@ fall back on. Those 3 are not yet in the KML. To add them: open each
 what3words link yourself (it shows the coordinates on the map) and paste
 the lat/lon back, same as the rest.
 
+**Marakele — Entrance Gate added** (`source/manual_data/marakele.json`).
+Same what3words gap again: Bontle Rest Camp, Tlopi Tented Camp, and Lenong
+Viewpoint are only given as what3words addresses, not yet in the KML for
+the same reason as Mapungubwe's three above.
+
 **Data quality flag — needs your check, not mine:** the coordinates you
 supplied for Glen Reenen Rest Camp and Basotho Cultural Village share the
 exact same longitude, 28.744250°E, matching to 0.1 arc-second (~3m). Two
@@ -222,7 +227,8 @@ here and in the JSON source rather than silently trusting or silently
    POI (manually retrieved by the user from the SANParks website — see
    "Manually-sourced data" below). Still missing Picnic/Bird Hides/Water
    Holes/Dams/Waypoints. **Mapungubwe** now also has one Gate (Entrance
-   Gate, manually sourced). **Marakele** still has only a boundary.
+   Gate, manually sourced). **Marakele** now also has one Gate (Entrance
+   Gate, manually sourced).
 3. **Thin parks** (Agulhas, Bontebok, Augrabies Falls, Garden Route,
    Camdeboo, Karoo, Mountain Zebra, Namaqua, Table Mountain, West Coast) —
    have partial category coverage beyond their (now real) boundary. Filling
